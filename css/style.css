@@ -1,9 +1,19 @@
+.quilometragem {
+  color: orange;
+}
+
+
+.ano {
+  color: orange;
+}
+
 body {
   font-family:  Arial, sans-serif;
   margin: 0;
 }
 
 h1 {
+  margin: 20px;
     text-align: center;
 }
 h2 {
@@ -14,7 +24,7 @@ section {
     font-size: 20px;
   background-color: black;
   padding: 50px;
-  margin: 60px;
+  margin: 40px;
   color: grey;
 margin-right: 10vh;
 }
@@ -32,6 +42,11 @@ button {
 }
 
 .preco {
-  color: #FFD700; /* amarelo (gold) */
+  color: orange; /* amarelo (gold) */
   font-weight: bold;
 }
+
+button:hover {
+  cursor: pointer;
+}
+
