@@ -50,3 +50,18 @@ button:hover {
   cursor: pointer;
 }
 
+.produto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.produtobox {
+  display: flex;
+  flex-direction: column;
+}
+
+.produto img {
+border-radius: 100%;
+}
